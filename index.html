@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="css/tailwind.css">
+	<link rel="stylesheet" href="custom.css">
+
+	<title>Bit-zon.com: Compras en Linea</title>
+</head>
+
+
+
+<body>
+	<nav class="bg-nav-color">
+
+		<div id="lineaSuperior" class="flex flex-row h-auto justify-between">
+			<div class="w-44 flex-shrink-0 ">
+				<a href="/">
+					<img class="w-auto h-12 px-4" src="images/logoA.png" alt="">
+				</a>
+			</div>
+
+			<div class="pt-3 w-full px-10">
+				<div class="border-2 rounded flex flex-row">
+					<select class="w-16 bg-select-color py-1 text-sm" name="" id="">
+						<option value="" selected="true">Todos</option>
+						<option value="">Todos los departamentos</option>
+						<option value="">Arte y artesanías</option>
+					</select>
+					<div class="w-full">
+						<input class="py-1 w-full" type="text">
+					</div>
+					<button class="bg-btn-color py-1 w-16" type="submit">
+						<i class="fas fa-search"></i>
+					</button>
+				</div>
+			</div>
+
+			<div class="fix-right flex-shrink-0 pt-2">
+				<a href="">
+					<img class="" src="images/banner-servicio.png" alt="">
+				</a>
+			</div>
+		</div>
+
+
+
+
+
+		<div id="lineaInferior" class="flex flex-row justify-between pb-1 px-1">
+			<div class="text-white w-44 flex-shrink-0 bgO hover:border-gray-600">
+				<a class="flex flex-row px-3" href="">
+					<div class="h-auto ">
+						<i class="fas fa-map-marker-alt align-middle text-xl px-1 pt-4"></i>
+					</div>
+					<div>
+						<div class="text-sm">Enviar a</div>
+						<div class="font-bold">El Salvador</div>
+					</div>
+				</a>
+			</div>
+
+			<div class="mt-4 flex-shrink-0 z-0">
+				<ul class="flex flex-row align-bottom ">
+					<li class="pt-1 bgO hover:border-gray-600">
+                  <select class=" bg-transparent font-bold text-sm text-white px-4 " name="" id="">
+                  <option selected=" true" value="">Departamentos</option>
+						<option value="">Prime Video</option>
+						</select>
+					</li>
+					<li class="pt-1 bgO hover:border-gray-600">
+						<a class="text-sm text-gray-500 px-2 " href="/">Ofertas del Día</a>
+					</li>
+					<li class="pt-1 bgO hover:border-gray-600">
+						<a class="text-sm text-gray-500 px-2 " href="/">Tu amazon.com</a>
+					</li>
+					<li class="pt-1 bgO hover:border-gray-600">
+						<a class="text-sm text-gray-500 px-2 " href="/">Tarjetas de Regalo</a>
+					</li>
+					<li class="pt-1 bgO hover:border-gray-600">
+						<a class="text-sm text-gray-500 px-2 " href="/">Ayuda</a>
+					</li>
+					<li class="pt-1 bgO hover:border-gray-600">
+						<a class="text-sm text-gray-500 px-2 " href="/">Listas</a>
+					</li>
+					<li class="pt-1 bgO hover:border-gray-600">
+						<a class="text-sm text-gray-500 px-2 " href="/">Vender</a>
+					</li>
+
+				</ul>
+			</div>
+
+			<div class="pl-8 pr-2 flex-shrink-0 flex flex-row z-10">
+				<div class="h-auto bgO hover:border-gray-600">
+					<a class="pl-2  flex flex-row" href="">
+						<div class="">
+							<div class="text-sm text-gray-400">ES</div>
+							<div class="text-sm text-white">
+								<i class="fas fa-globe"></i>
+								<i class="fas fa-caret-down px-1 text-gray-400"></i>
+							</div>
+						</div>
+						<div class="border-l border-gray-500 mt-1 h-8 pr-2"></div>
+					</a>
+				</div>
+				<div class="h-auto bgO hover:border-gray-600">
+					<a class="px-2  flex flex-row" href="">
+						<div class="">
+							<div class="text-sm text-gray-400">Hola, Identificate</div>
+							<div class="text-sm text-white">
+								<span class="font-bold">Cuenta y Listas</span><i class="fas fa-caret-down px-1 text-gray-400"></i>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="h-auto bgO hover:border-gray-600">
+					<a class="px-2 flex flex-row text-sm text-gray-400 font-bold pt-5" href="">Pedidos</a>
+				</div>
+				<div class="h-auto bgO hover:border-gray-600">
+						<a class="px-2  flex flex-row " href="">
+								<div class="text-lg text-orange-600 font-bold px-5 bg-cover bg-no-repeat" style="background-image:url(images/cart.png); width:45px; ">0</div>
+
+							<div class="text-sm text-gray-400 font-bold pt-5">Carrito</div>
+						</a>
+				</div>
+
+			</div> 
+
+		</div><!-- FIN LINEA INFERIOR DEL NAV-->
+
+	</nav>
+
+
+
+
+
+
+	<section class=" bg-no-repeat h-auto" style="background-image:url(images/back-plane.jpg); width:100%;">
+		<div id="cards" class="pt-64 flex flex-row">
+			<div class="bg-white w-1/3 xl:w-1/4 p-4 mx-3 ">
+				<h1 class="font-bold text-2xl">Celulares como nuevos</h1>
+				<div class="p-4 h-64 text-center mb-2 w-full ">
+					<img class="m-auto w-auto " src="images/c-cel.jpg" alt="">
+				</div>
+				<p class="text-sm lg:pt-4 h-16">Más infromación sobre cómo comprar en Amazon</p>
+					<a class="text-sm text-blue-700 font-bold" href="">Más infromación</a>
+			</div>
+			<div class="bg-white w-1/3 xl:w-1/4 p-4 mx-3 ">
+				<h1 class="font-bold text-2xl">Ofertas y Promociones</h1>
+				<div class="p-4 h-64 text-center mb-2 w-full ">
+					<img class="m-auto w-auto " src="images/c-gifts.jpg" alt="">
+				</div>
+				<p class="text-sm lg:pt-4 h-16">Ofertas en cada departamento</p>
+				<a class="text-sm text-blue-700 font-bold" href="">Compra Ahora</a>
+			</div>
+			<div class="bg-white w-1/3 xl:w-1/4 p-4 mx-3 ">
+				<h1 class="font-bold text-2xl">Zapatos de vestir</h1>
+				<div class="p-4 h-64 text-center mb-2 w-full ">
+					<img class="m-auto w-auto " src="images/c-shoes.jpg" alt="">
+				</div>
+				<p class="text-sm lg:pt-4 h-16">Encuentra tus marcas favoritas</p>
+				<a class="text-sm text-blue-700 font-bold" href="">Compra Ahora</a>
+			</div>
+			<div class="bg-white hidden xl:inline lg:w-1/4 p-4 mx-3 ">
+				<div class="c">
+					<h1 class="font-bold text-2xl">¿Necesitas ayuda?</h1>
+					<button>ALGO!!</button>
+					<p class="text-sm h-16">Más infromación sobre cómo comprar en Amazon</p>
+					<a class="text-sm " href="">Más infromación</a>
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+
+	<section >
+		<div class="bg-gral">
+			a <br> b <br> c <br> a <br> b <br> c <br>
+		</div>
+	</section>
+
+
+
+
+
+	<script src="https://kit.fontawesome.com/aef3a54bf3.js"></script>
+	<script src="scrpt/utils.js"></script>
+</body>
+
+</html>

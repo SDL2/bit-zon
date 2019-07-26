@@ -1,0 +1,80 @@
+	
+
+		TAIL WIND INSTALLATION
+
+-had node.js installed to use "npm"
+  -check installation:
+  in the CMD run:
+node -v
+and then:
+npm -v
+(if there isn't info of the version installed you need to install it)
+
+-create index.html
+-a 'css' folder
+-a 'custom.css' file [for your custom css]
+(the name you like, but in root/project folder like the index, or where you like but be aware to specify your right path in step 5)
+
+
+
+
+1- install the 'package.json' deppendency administrator for the project:
+ -go with the CMD to the your project folder
+ -run: npm init -y
+
+
+2- now to install tailwind run: 
+npm install tailwindcss --save -dev
+
+
+3- create your tailwind config file (yes, it's npX)
+ - run: npx tailwind init
+(it will create the tailwind.config.js file)
+
+
+4- add tailwind to your css file these lines:
+(we named it: custom.css)
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+5- process your css with tailwind to a new css file
+(we will store the new file in our 'css' folder)
+run:
+"npx tailwind build styles.css -o output.css"
+
+-->IN OUR CASE:
+npx tailwind build custom.css -o css/tailwind.css
+
+
+6- then in your html don't forget you links, for this example must look like this:
+
+<link rel="stylesheet" href="css/tailwind.css">
+
+<link rel="stylesheet" href="custom.css">
+(this whould be only for test)
+
+
+
+	AND WE ARE READY
+
+
+** to add our custom css clasess(from our 'custom.css' file) to the tailwind.css file, we can rebuil it using runing again:
+
+npx tailwind build custom.css -o css/tailwind.css
+
+
+
+
+
+
+
+
+
+
+		TAILWIND CSS OPTIMIZATION?
+
+
+npm i postcss postcss-cli cssnano @fullhuman/postcss-purgecss --save -dev

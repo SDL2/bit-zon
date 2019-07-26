@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+
+/* ASI SE HACE,, Y AQUI PERO ESTA COMBINACION NO FUNCIONA
+.brd-hi{
+    @apply border border-transparent;
+}
+.brd-hi:hover{
+    @apply border-gray-600;
+}
+*/
+
+@tailwind utilities;
+
+.bg-nav-color{
+    background-color: #232F3D;
+}
+.bg-select-color{
+    background: transparent;
+    background-color: #dddada !important;
+}
+.bg-btn-color{
+    background-color: #FCBC70;
+}
+
+
+.fix-right{
+    width: 400px;
+    height: 39px;
+}
+
+.bgO{
+    border-width: 1px;
+    border-color: transparent;
+}
+
+.bg-gral{
+    background-color: #ebecee;
+}
+
+

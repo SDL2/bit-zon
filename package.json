@@ -1,0 +1,23 @@
+{
+  "name": "bit-zon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SDL2/bit-zon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SDL2/bit-zon/issues"
+  },
+  "homepage": "https://github.com/SDL2/bit-zon#readme",
+  "dependencies": {
+    "tailwindcss": "^1.0.5"
+  }
+}
