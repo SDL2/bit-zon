@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/tailwind.css">
     <link rel="stylesheet" href="custom.css">
 
-    <title>Seleccionar una forma de pago</title>
+    <title>Seleccionar un metodo de pago</title>
 </head>
 <body>
     <nav class="px-6 py-5 w-full flex h-auto">
@@ -19,15 +19,135 @@
 
 
 
-    
+
     <section class="c">
+
+        <div class="mt-3 border border-gray-300 rounded px-3 py-2 mx-5 w-auto inline-block">
+            <div class="flex flex-row border border-gray-300 bg-alert-f p-2 rounded">
+                <img class="w-6 h-6 ml-1 mr-3" src="images/alert-s.svg" alt="" srcset="">
+                <h1 class="text-sm text-gray-700 pr-4 font-semibold">Especifica a continuación cómo te gusta realizar el pago y lo guardaremos como opción.</h1>
+            </div>
+        </div>
+
+
+        <div class="mt-3 border-b-2 pb-3 mx-5">
+            <div class="c">
+                <h1 class="text-2xl font-bold">Selecciona un método de pago</h1>
+            </div>
+        </div>
+
+
+        <div class="mt-5 pb-4 mx-5 ">
+
+            <div class="flex flex-row ">
+                <div class="c">
+                    <h1 class="text-xl font-bold ">Selecciona uno de nuestros métodos de pago</h1>
+                </div>
+                
+                <div class="flex flex-row flex-shrink-0">
+                    <div class="">
+
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd" value="_s-xclick">
+                            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                            <input id="ppbtn" type="image" class="h-8 ml-8 flex-shrink-0 " src="images/paypal-badge.jpg" border="0" name="submit" alt="PayPal, la forma rápida y segura de pagar en Internet." >
+                            <img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+                            </form>
+                            
+
+                    </div>
+
+                    <div class="c">
+                        <button id="tarjeta" class="bg-gray-100 rounded flex-shrink-0 h-8 pl-2 pr-5 ml-1 font-semibold text-sm border border-gray-500 inline-block">
+                        <i class="far fa-credit-card px-3"></i>
+                        Pagar con tarjeta</button>
+                    </div>
+                </div>
+                
+
+            </div>
+
+
+            
+            <div class="c">
+                <p class="text-xs ">
+                    Amazon acepta la mayoría de tarjetas de crédito o débito y plataformas de pago.
+                </p>
+            </div>
+
+        </div>
 
     </section>
 
 
 
 
+
+
+
+
+
+    <section>
+        <ul id="mainlist" class="">
+            <li class="">
+                <button id="arrow" class="font-bold p-4"><i class="fas fa-chevron-right text-gray-500 pr-3" ></i></button>
+                    
+                <ul id="bl1" class="hidden"><!-- AQUI VA EL hidden -->
+                    <li class="mx-5">
+                        <span class="text-xs">Ingrese la información de su tarjeta:</span>
+        <form id="card-form" action="">
+                    <div class="flex flex-row items-center h-auto">
+                        
+                            <div class="flex flex-col w-auto inline-block">
+                                <label class="text-xs font-bold mt-2" for="">Nombre de titular en la tarjeta</label>
+                                <input id="name" class="border-2 h-10 w-48 rounded" type="text" value="">
+                            </div>
+
+                            <div class="flex flex-col w-auto inline-block ml-8 mr-2">
+                                <label class="text-xs font-bold mt-2" for="">Número de tarjeta</label>
+                                <input class="border-2 h-10 w-48 rounded" type="number" value="">
+    <!--<div id="card-element" class="border-2 h-10 w-48 rounded"></div> -->
+                            </div>
+
+                            <div class="flex flex-col w-auto inline-block">
+                                <label class="text-xs font-bold mt-2" for="">Fecha de vencimiento</label>
+
+                                <div class="flex flex-row">
+                                    <select class="border-2 text-sm font-bold h-10 w-16 mx-2 rounded" name="" id="">
+                                        <option value="01">01</option><option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option><option value="06">06</option><option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option><option value="11">11</option><option value="12">12</option>
+                                    </select>
+                                    <select class="border-2 text-sm font-bold h-10 w-20 rounded" name="" id="">
+                                        <option value="2019">2019</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2021">2021</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div class="flex flex-col  w-auto inline-block">
+                                
+                                <button type="submit" class="back-gra-btn font-bold rounded w-32 text-sm border border-orange-400 h-10 mx-4 mt-6">Pagar ahora</button>
+                            </div>
+                        
+
+<!-- CUSTOMIZE STRIPE ELEMENTS FORM -->
+
+
+                    </div>
+        </form> 
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <div id="errors" class=" text-white p-2 rounded"></div>
+
+
+
+    <script src="https://js.stripe.com/v3/"></script>
     <script src="https://kit.fontawesome.com/aef3a54bf3.js"></script>
-	<script src="scrpt/utils.js"></script>
+    <script src="scrpt/utils.js"></script>
+    <script src="scrpt/card-b.js"></script>
 </body>
 </html>
